@@ -1,0 +1,82 @@
+nav {
+	position: fixed;
+	background-color: lightgrey;
+	padding: 5px;
+	width: 100%;
+	top: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.logo{
+	color: black;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+.nav-menu {
+	float: right;
+	line-height: 25px;
+	padding: 0 5px;
+	color: purple;
+	text-decoration: none;
+}
+
+body {
+	margin: 0;
+	padding-top: 50px;
+	font-family: Helvetica, sans-serif;
+}
+
+.search-bar {
+	width: 50%;
+}
+
+label {
+	display: block;
+}
+
+button {
+	background: none;
+	background-image: url(magnifying-glass.png);
+	background-size: 20px;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	text-indent: -9999px;
+	width: 24px;
+	border: 1px solid grey;
+	border-radius: 2px;
+}
+
+.pages {
+	border: 1px solid grey;
+	display: inline-block;
+	height: 15px;
+	border-radius: 2px;
+}
+
+.pagination {
+	border: 1px solid grey;
+	border-radius: 2px;
+	display: inline-block;
+	margin:10px;
+}
+
+.pagination a, .pagination span {
+	padding: 10px;
+	display: inline-block;
+	font-size: 10px;
+	color: black;
+	text-decoration: none;
+}
+
+.pagination span {
+	border: 1px solid grey;
+	border-width: 0 1px 0 1px
+}
+
+section {
+	font-size: 14px;
+}
