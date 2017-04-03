@@ -1,0 +1,14 @@
+.logo {
+	width: auto;
+	height: 35px;
+}
+
+body {
+	background-color: lightblue;
+}
+
+.signup {
+	width: 400px;
+	padding: 40px;
+	background-color: white;
+}
